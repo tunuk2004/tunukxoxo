@@ -1,0 +1,56 @@
+body{
+    background-image: url(https://vsegda-pomnim.com/uploads/posts/2022-02/1645828681_5-vsegda-pomnim-com-p-visokie-oblaka-foto-6.jpg);
+    background-size: cover;
+    border: 8px solid rgb(10, 10, 10);
+    margin: o;
+    padding: 0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+img{
+    width: 200px;
+    border: 5px solid;
+    border-radius: 10px 80px;
+}
+
+h2{
+    color: rgb(326, 303, 314);
+}
+b{
+    color: rgb(886, 803, 844);
+    font-weight: lighter;
+}
+.main{
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.links{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border:1px solid black;
+    border-width: 2px;
+    display: block;
+    margin-left: auto;
+    border-radius: 10px;
+    max-width: 320px;
+    transition: 2s;
+}
+.links:hover {
+    background-color: red (113,204,204);
+    transition: 2s;
+}
+a {
+text-decoration: none;
+color: azure;
+font-weight: bold;
+}
+a:hover {
+color: blueviolet;
+}
